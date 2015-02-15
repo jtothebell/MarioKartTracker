@@ -180,6 +180,7 @@ if (Users.find().count() === 0) {
 	Users.insert({
 		name: 'Jon',
 		displayName: 'Jon',
+		allTimePoints: 0;
 	});
 	Users.insert({
 		name: 'Adam C',
