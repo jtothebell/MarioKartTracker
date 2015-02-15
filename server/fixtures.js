@@ -180,27 +180,32 @@ if (Users.find().count() === 0) {
 	Users.insert({
 		name: 'Jon',
 		displayName: 'Jon',
-		allTimePoints: 0;
+		allTimePoints: 0,
 	});
 	Users.insert({
 		name: 'Adam C',
 		displayName: 'Ansen',
+		allTimePoints: 0,
 	});
 	Users.insert({
 		name: 'Corey',
 		displayName: 'dchw',
+		allTimePoints: 0,
 	});
 	Users.insert({
 		name: 'Dewey',
 		displayName: 'dewey',
+		allTimePoints: 0,
 	});
 	Users.insert({
 		name: 'Todd',
 		displayName: 'toots',
+		allTimePoints: 0,
 	});
 	Users.insert({
 		name: 'Max',
 		displayName: 'Reginald',
+		allTimePoints: 0,
 	});
 	
 }
