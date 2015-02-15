@@ -1,8 +1,9 @@
 <template name="grandPrixStart">
 	<form class="main form page">
-		<h3>Select the racers</h3>
-		<div class="form-group">
-		</div>
-		<input type="submit" value="Start" class="btn btn-primary"/>
+		<h3>In this Grand Prix</h3>
+		{{#each users}}
+			<p>Racer: {{displayName}}</p>
+		{{/each}}
+		<input type="submit" value="Start GP" class="btn btn-primary"/>
 	</form>
 </template>
